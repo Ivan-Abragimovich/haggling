@@ -1,0 +1,11 @@
+{
+    "license": "BSD-3-Clause",
+    "devDependencies": {
+        "@types/node": "^10.3.4"
+    },
+    "scripts": {
+        "compile": "tsc",
+        "lint": "tslint -c tslint.json 'src/**/*.ts'",
+        "build": "npm run compile && npm run lint"
+    }
+}
